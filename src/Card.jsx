@@ -9,7 +9,10 @@ function Card(props){
             <dl className='dictionary'>
             <div className='term'>
             <p>{props.id}</p>
-                <dt >{props.emojiimage}</dt>
+                <dt className='emoji'>
+                <span>{props.emojiimage}</span>
+                </dt>
+                <span>{props.name}</span>
                 <dd> {props.meaning} </dd>
             </div>
             </dl>

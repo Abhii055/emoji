@@ -52,6 +52,11 @@ body {
     font-size: 200%;
     font-weight: 900;
   }
+
+  span{
+    color: #2ec2b0;
+    font-weight: 900;
+  }
   
   .emoji {
     margin: 0 auto 20px;
@@ -80,5 +85,12 @@ body {
   
   dd dl .term {
     margin-bottom: 1rem;
+  }
+  p{
+    border:3px solid #2ec2b0;
+    width:25px;
+    border-radius: 100%;
+    margin: auto;
+    text-align: center;
   }
   

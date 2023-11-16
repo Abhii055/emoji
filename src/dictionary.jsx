@@ -8,6 +8,7 @@ function createCard(emojidata){
         key={emojidata.id}
         id={emojidata.id}
         emojiimage={emojidata.emojiimage}
+        name={emojidata.name}
         meaning={emojidata.meaning}
          />
     )
