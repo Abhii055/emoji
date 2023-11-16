@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './Card';
+import  Dictionary from "./dictionary";
 function App(){
     return(
     <div>
-    <Card />
+    <Dictionary />
     </div>
     )
 }
