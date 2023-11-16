@@ -17,7 +17,7 @@ function Dictionary(){
     return(
         <div>
          <h1> emoji</h1>
-            {emojidata.map(createCard)}
+            <div className="dictionary">{emojidata.map(createCard)}</div>
         </div>
     )
 }
