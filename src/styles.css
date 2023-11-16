@@ -94,3 +94,18 @@ body {
     text-align: center;
   }
   
+  .card{
+    border:3px solid #2ec2b0;
+    margin: auto;
+    text-align: center;
+  }
+  .header{
+    border:3px solid #2ec2b0;
+    margin: auto;
+    text-align: center;
+  }
+  .body{
+    border:3px solid #2ec2b0;
+    margin: auto;
+    text-align: center;
+  }
