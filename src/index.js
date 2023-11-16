@@ -1,8 +1,12 @@
 import React from 'react';
 import  ReactDOM from 'react-dom';
+import App from './App';
+import "./styles.css";
 
 ReactDOM.render(
-  <h1>Hello emojis</h1>,
+<div>
+ <App />
+</div>,
   document.getElementById("root")
 )
 
