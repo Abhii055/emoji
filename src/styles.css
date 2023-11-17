@@ -93,19 +93,8 @@ body {
     margin: auto;
     text-align: center;
   }
+  .heading{
+    color: #2ec2b0;
+    font-weight: 900;
+  }
   
-  .card{
-    border:3px solid #2ec2b0;
-    margin: auto;
-    text-align: center;
-  }
-  .header{
-    border:3px solid #2ec2b0;
-    margin: auto;
-    text-align: center;
-  }
-  .body{
-    border:3px solid #2ec2b0;
-    margin: auto;
-    text-align: center;
-  }
