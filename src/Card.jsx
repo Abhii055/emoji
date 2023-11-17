@@ -1,5 +1,4 @@
 import React from 'react';
-import emojidata from './emojidata';
 
 function Card(props){
     return(
