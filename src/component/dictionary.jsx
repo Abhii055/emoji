@@ -3,9 +3,12 @@ import Card from "./Card";
 import emojidata from "./emojidata";
 import shortlenmeaning from "./substring";
 
-function createCard(emojidata,index){
+
+function Dictionary(){
     return(
-        <div>    
+        <div>
+        <h1>emoji</h1>
+            <div className="dictionary">{emojidata.map((emojidata,index) => 
             <Card
                 key={emojidata.id}
                 id={emojidata.id}
@@ -13,14 +16,8 @@ function createCard(emojidata,index){
                 name={emojidata.name}
                 meaning={shortlenmeaning[index]}
             />     
-        </div>
-    )
-}
-function Dictionary(){
-    return(
-        <div>
-        <h1>emoji</h1>
-            <div className="dictionary">{emojidata.map((item,index)=>createCard(item,index))}</div>
+       
+)}</div>
         </div>
     )
 }
