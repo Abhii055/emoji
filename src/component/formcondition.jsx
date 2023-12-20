@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './form';
- const inputvalue ="F";
+ const inputvalue ="T";
  
  function FormCondition(){
    return <div className='container'><form className='form'>
