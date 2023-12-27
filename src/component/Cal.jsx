@@ -1,4 +1,4 @@
-import react,{useState} from "react";
+import {useState} from "react";
 
 export function Strike(){
     document.getElementById("one").style.textDecoration="line-through";
