@@ -1,4 +1,4 @@
-import  useState  from 'react';
+import  {useState}  from 'react';
 
 function CurrentTime(){
 
@@ -6,27 +6,15 @@ function CurrentTime(){
     const [time ,setTime]=useState(now);  
 
 function updateTime(){
-
     const newTime = new Date().toLocaleTimeString();
     setTime(newTime);
 
 }
-
-    return(<div className='container'>
+    return(
+    <div className='container'>
         <h1>{time}</h1>
         <button onClick={updateTime} className='button'> get time </button>
         </div>
     );
 }
-
 export default CurrentTime;
-
-
-// function Time(){
-//     return( <div>
-//         {   
-//             console.log(time)}
-//         </div>
-//     );
-// }
-
