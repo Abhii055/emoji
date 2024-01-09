@@ -1,23 +1,25 @@
 import react, { useState } from 'react';
-let time = new Date().toLocaleTimeString();
-console.log(time);
-function currentTime(){
-    const [ct,Timefun]=useState(0);  
 
-function Timefun(){
+function CurrentTime(){
+
+    const now = new Date().toLocaleTimeString();
+    const [time ,setTime]=useState(now);  
+
+function updateTime(){
+
+    const newTime = new Date().toLocaleTimeString();
+    setTime(newTime);
 
 }
-}
-function Time(){
-    return(<div>
-        <h1>hello</h1>
-        <button onClick={Timefun}> get time 
-        </button>
+
+    return(<div className='container'>
+        <h1>{time}</h1>
+        <button onClick={updateTime} className='button'> get time </button>
         </div>
     );
 }
 
-export default Time;
+export default CurrentTime;
 
 
 // function Time(){
